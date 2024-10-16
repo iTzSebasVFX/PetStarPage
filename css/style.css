@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/img/imagenmascot.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    color: #e6d7aa;
+    text-align: center;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    
+    width: 50%;
+    color: black;
+    background-color: rgba(231, 188, 139, 0.658);
+    backdrop-filter: blur(30px);
+}
+
+section{
+    display: grid;
+    place-items: center;
+    margin: auto;
+    width: 50%; 
+}
+
+.logo img{
+    width: 70%;
+}
+
+.logo img:hover{
+    transition: ease 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: -5px 5px 10px greenyellow;
+    border: 1px solid rgba(229, 255, 0, 0.658);
+    border-radius: 15px;
+}
+
+.datos{
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.datos h1{
+    margin-bottom: 10px;
+    font-family: "Playfair Display-Black", serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-style: normal;
+    color: black;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    margin: 10px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 19px;
+    font-style: normal;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 2px 4px greenyellow;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: -5px 5px 10px rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.658);
+    border-radius: 15px;
+    overflow: hidden;
+}
